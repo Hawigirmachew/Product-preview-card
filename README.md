@@ -42,7 +42,7 @@ The ScreenShot
  -Resources
    [Example reaourse 1](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=3s)
  -Author
-   - website -[Hawi Girmachew] (http://127.0.0.1:5501/Procuct-preview-card/index.html)
+   - website -[Hawi Girmachew] (https://product-preview-card.000webhostapp.com/index.html)
    - Frontend Mentor @Hawigirmachew (https://www.frontendmentor.io/profile/Hawigirmachew)
    - Twitter - @girmachee_h(https://twitter.com/girmachee_h)
   
