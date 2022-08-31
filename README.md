@@ -42,7 +42,7 @@ The ScreenShot
  -Resources
    [Example reaourse 1](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=3s)
  -Author
-   - website -[Hawi Girmachew] (https://product-preview-card.000webhostapp.com/index.html)
+   - website -[Hawi Girmachew] ((https://aquamarine-lollipop-6d674e.netlify.app/))
    - Frontend Mentor @Hawigirmachew (https://www.frontendmentor.io/profile/Hawigirmachew)
    - Twitter - @girmachee_h(https://twitter.com/girmachee_h)
   
