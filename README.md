@@ -15,6 +15,7 @@ Table of contnts
   - [Continued development] 
   - [Useful resources] 
 - [Author](#author)
+- Acknowledgement
 
 The ScreenShot
    
@@ -38,12 +39,30 @@ The ScreenShot
     align-items: center;
     align-content: center;
 }
-- Continue development: on the part of reposiveness  
+    - I editted this challenge and i figure out the use of flex property in css and it is better than using width to have equal portion so I added flex property 
+        in the parent class of the image and text 
+            -.product{
+    height:60vh;
+    margin:0 auto;
+    display: flex;
+    max-width:600px;
+    flex:1;
+    background-color: black;
+    
+}
+        
+- Continue development: on the part of reposiveness  when insoect is applied on it.
+      
  -Resources
    [Example reaourse 1](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=3s)
+   [Example resourse 2](https://www.youtube.com/watch?v=sTB5Z7cmtws)
  -Author
    - website -[Hawi Girmachew] ((https://aquamarine-lollipop-6d674e.netlify.app/))
    - Frontend Mentor @Hawigirmachew (https://www.frontendmentor.io/profile/Hawigirmachew)
    - Twitter - @girmachee_h(https://twitter.com/girmachee_h)
-  
+ -Acknoledgement
+    -Harsh Kumar(@thisisharsh7)
+    -stv10(@stv10)
+    -Adarsh(@adram3l3ch)
+
     
