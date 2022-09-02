@@ -11,52 +11,46 @@
 body{
     font-size:14px;
     font-family: 'Montserrat', sans-serif;
-    background-color: hsl(30, 38%, 92%) ;
+    
+}
+.container{
+    height:100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
+    background-color: hsl(30, 38%, 92%) ;
 }
 .product{
-    
-    padding:231px 0;
+    height:60vh;
+    margin:0 auto;
     display: flex;
-    flex-basis:600px;
-    flex-direction: row;
+    max-width:600px;
+    flex:1;
+    background-color: black;
     
 }
+
 .mobile-image{
     display: none;
 }
-/* .wrapper{
-    width:50%;
-    height:120%;
-    margin:0 auto;
-    justify-content: center;
-    display:flex;
-    flex-wrap: wrap;
-} */
 .image{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+.image{
+    height:100%;
+    
+}
+.description{
+    background-color:hsl(0, 0%, 100%) ;
+    padding:23px 30px;
 }
  .description{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.imagefile{
-    width:50%;
-}
-.image{
-    width: 100%;
-    height: 100%;
-}
-.description{
-    width:50%;
-    background-color:hsl(0, 0%, 100%) ;
-    padding:23px 30px;
-    
-}
+
+
 .perfume{
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -81,6 +75,7 @@ body{
     color:var(--grey);
     font-weight: lighter;  
 }
+
 .price{  
   color:hsl(158, 36%, 37%);
   padding-right: 10px;
@@ -91,10 +86,6 @@ body{
     font-size: 0.8rem;
     vertical-align: super;
      
-}
-.image1{
-    padding-right: 8px;
-    
 }
 .btn{
     padding:15px 67px;
@@ -109,17 +100,23 @@ body{
 .btn:hover{
     background-color:hsl(158, 84%, 20%);
 }
-/* footer{
+.imagecart{
+    padding-right: 8px;
+    
+}
+.footer{
     display: block;
-
-} */
+    position:absolute;
+    bottom: 0;
+    left:0;
+}
 @media screen and (max-width: 700px){
-
     .product{
-        margin:auto;
-         
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
-        
+        flex:0.5;   
     }
     .image{
         display: none;
@@ -134,9 +131,10 @@ body{
         font-family:   'Fraunces', serif;
         margin-block-end: 1rem;
         font-size: 1.5em;
-        line-height: 1.05;
+        line-height:1;
     }
     .btn{
-        padding:10px 57px;
+        padding:10px 25px;
     }
+    
 }
