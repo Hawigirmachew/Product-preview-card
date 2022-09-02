@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
 :root{
     --grey:#929292;
@@ -21,14 +21,29 @@ body{
     background-color: hsl(30, 38%, 92%) ;
 }
 .product{
+    /* height: 60vh; */  
+    /* margin: 0 auto; */  
+    display: flex;
+    max-width:700px;
+    /* flex: 1; */  
+    /* background-color: black; */  
+}
+
+.imagefile, .description {
+    flex: 1;
+}
+
+.image {
+    width: 100%;
+}
+/* .product{
     height:60vh;
     margin:0 auto;
     display: flex;
     max-width:600px;
     flex:1;
-/*     background-color: black; */
-    
-}
+     
+} */
 
 .mobile-image{
     display: none;
@@ -111,12 +126,13 @@ body{
     left:0;
 }
 @media screen and (max-width: 700px){
-    .product{
+    .product {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        flex:0.5;   
+        /* flex: 0.5; */  
+        margin: 2rem;
     }
     .image{
         display: none;
