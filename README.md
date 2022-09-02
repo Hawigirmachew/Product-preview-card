@@ -58,7 +58,7 @@ The ScreenShot
    [Example resourse 2](https://www.youtube.com/watch?v=sTB5Z7cmtws)
  -Author
    - website -[Hawi Girmachew] ((https://aquamarine-lollipop-6d674e.netlify.app/))
-   - Frontend Mentor @Hawigirmachew (https://www.frontendmentor.io/profile/Hawigirmachew)
+   - Frontend Mentor @Hawigirmachew (https://bespoke-douhua-254948.netlify.app/)
    - Twitter - @girmachee_h(https://twitter.com/girmachee_h)
  -Acknoledgement
     -Harsh Kumar(@thisisharsh7)
